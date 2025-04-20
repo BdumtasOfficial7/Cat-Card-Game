@@ -5,9 +5,9 @@ const questions = [
     hint: "cat",
   },
   {
-    word: "kitten",
-    image: "level-gambar/kitten.png",
-    hint: "kitten",
+    word: "branch",
+    image: "level-gambar/branch.png",
+    hint: "branch",
   },
   {
     word: "hungry",
@@ -171,7 +171,7 @@ const questions = [
   },
   {
     word: "blanket",
-    image: "level-gambar/blanked.png",
+    image: "level-gambar/blanket.png",
     hint: "blanket",
   },
   {
