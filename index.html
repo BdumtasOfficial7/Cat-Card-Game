@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mengenal Kucing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Mengenal Kucing</h1>
+
+    <div id="score">Score: 0 | Level: 1</div>
+
+    <div id="image-container">
+      <img id="question-image" src="question.png" alt="question" />
+    </div>
+
+    <div class="button-grid">
+      <button onclick="startGame()">Mulai</button>
+      <button onclick="repeatQuestion()">Dengarkan Soal</button>
+      <button onclick="listenAnswer()">Jawab Pakai Suara</button>
+      <button onclick="showHint()">Bantu Jawab</button>
+    </div>
+
+    <div class="text-answer">
+      <input type="text" id="textInput" placeholder="Tulis jawabanmu di sini..." />
+      <button onclick="submitTextAnswer()">Kirim</button>
+    </div>
+
+    <div id="message"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
